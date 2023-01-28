@@ -17,8 +17,6 @@ call plug#end()
 lua require'lspconfig'.rust_analyzer.setup({})
 lua require("init")
 
-"let $OPENAI_API_KEY = "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"
-
 "plugins
 "let g:cpp_class_scope_highlight = 1
 "let g:cpp_class_decl_highlight = 1
