@@ -1,5 +1,6 @@
+require('Treesitter')
 require('NvimTreeSettings')
-require('TelescopeConf')
+--require('TelescopeConf')
 require('LspConf')
 
                             --mason config

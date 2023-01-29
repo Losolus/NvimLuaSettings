@@ -8,6 +8,10 @@ map("i", "jj", "<Esc>")
         --NERDTreeToggle button
 map("n", "<F6>", ":NvimTreeToggle<CR>")
 
+--fern keys
+map("n", "<F1>", ":Neotree<CR>")
+
+
         --map up, down, left and right to move between buffers
 map("n", "<C-k>", "<C-w>k")
 map("n", "<C-j>", "<C-w>j")
@@ -30,6 +34,8 @@ vim.cmd('command! Terem vnew | term ')
         --Bind Ctrl Backspace in insert 
 map("i", "<C-BS>", "<C-W>")
 
+--Make it rain!
+map("n", "<leader>fml", "<cmd>CellularAutomaton make_it_rain<CR>")
 
 
 
